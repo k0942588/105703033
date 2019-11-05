@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JFaceTutorial
+Bundle-SymbolicName: JFaceTutorial;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: jfacetutorial.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.apache.felix.scr,
+ org.eclipse.equinox.util,
+ org.eclipse.equinox.event
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: JFaceTutorial
+Bundle-ActivationPolicy: lazy
