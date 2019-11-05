@@ -76,6 +76,7 @@ public class TableViewerDemo {
         // Set input data to TableViewer
         List<Article> articleList= DataModel.getArticles();
         tableViewer.setInput(articleList);
+        
 
     }
 

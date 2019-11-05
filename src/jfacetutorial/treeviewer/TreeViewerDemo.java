@@ -8,13 +8,6 @@ import org.eclipse.swt.layout.FillLayout;
 import org.eclipse.swt.widgets.Tree;
 
 import jfacetutorial.DataModel;
-import org.eclipse.swt.widgets.Composite;
-import org.eclipse.jface.layout.TreeColumnLayout;
-import org.eclipse.swt.widgets.Table;
-import org.eclipse.jface.viewers.TableViewer;
-import org.eclipse.jface.layout.TableColumnLayout;
-import org.eclipse.swt.widgets.TreeColumn;
-import org.eclipse.jface.viewers.TreeViewerColumn;
 
 public class TreeViewerDemo {
 
@@ -68,5 +61,6 @@ public class TreeViewerDemo {
       tree.setHeaderVisible(true);
      
       treeViewer.setInput(DataModel.getAppMenus());
+      
   }
 }
