@@ -7,16 +7,16 @@
          point="org.eclipse.core.runtime.applications">
       <application>
          <run
-               class="jfacetutorial.Application">
+               class="midterm18_wu.Application">
          </run>
       </application>
    </extension>
    <extension
          point="org.eclipse.ui.perspectives">
       <perspective
-            class="jfacetutorial.Perspective"
+            class="midterm18_wu.Perspective"
             name="RCP Perspective"
-            id="JFaceTutorial.perspective">
+            id="midterm18_WU.perspective">
       </perspective>
    </extension>
 

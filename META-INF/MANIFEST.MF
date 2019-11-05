@@ -1,14 +1,15 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: JFaceTutorial
-Bundle-SymbolicName: JFaceTutorial;singleton:=true
+Bundle-Name: Midterm18_WU
+Bundle-SymbolicName: midterm18_WU;singleton:=true
 Bundle-Version: 1.0.0.qualifier
-Bundle-Activator: jfacetutorial.Activator
+Bundle-Activator: midterm18_wu.Activator
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
  org.apache.felix.scr,
  org.eclipse.equinox.util,
- org.eclipse.equinox.event
+ org.eclipse.equinox.event,
+ org.eclipse.swt.cocoa.macosx.x86_64.source;bundle-version="3.112.0"
 Bundle-RequiredExecutionEnvironment: JavaSE-11
-Automatic-Module-Name: JFaceTutorial
+Automatic-Module-Name: midterm18_WU
 Bundle-ActivationPolicy: lazy
